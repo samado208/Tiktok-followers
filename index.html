@@ -171,14 +171,18 @@ font-size:17px;
 
 /* الزر */
 
-button{
+.btn{
+display:block;
+
+text-align:center;
+
+text-decoration:none;
+
 width:100%;
 
 margin-top:18px;
 
 padding:18px;
-
-border:none;
 
 border-radius:18px;
 
@@ -187,8 +191,6 @@ font-size:20px;
 font-weight:bold;
 
 color:white;
-
-cursor:pointer;
 
 background:
 linear-gradient(
@@ -203,7 +205,7 @@ box-shadow:
 transition:0.3s;
 }
 
-button:hover{
+.btn:hover{
 transform:scale(1.03);
 }
 
@@ -278,9 +280,9 @@ Join thousands of creators using our modern growth platform to unlock followers,
 
 <input type="text" placeholder="TikTok Username">
 
-<button>
+<a href="https://members.ogads.com" class="btn">
 Continue
-</button>
+</a>
 
 <div class="features">
 
